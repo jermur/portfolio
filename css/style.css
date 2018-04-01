@@ -1,0 +1,12 @@
+.slides-navigation .prev,
+.slides-navigation .next{
+    color: white;
+}
+
+.slides-navigation .prev{
+    margin-left: 20px;
+}
+
+.slides-navigation .next{
+    margin-right: 20px;
+}
