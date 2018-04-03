@@ -94,3 +94,57 @@ body {
     content: '%';
 }
 
+.square-item {
+    margin-top: 30px;
+    position: relative;
+}
+
+.square-inner {
+    position: relative;
+    padding: 50px 15px 35px;
+    text-align: center;
+    border: 2px solid #444;
+    border-top: none;
+}
+
+.square-inner:before,
+.square-inner:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    width: 30%;
+    border-bottom: 2px solid #444;
+}
+
+.square-inner:before {
+    right: 0px;
+}
+
+.square-inner:after {
+    left: 0px;
+}
+
+.square-content h2 {
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: black;
+}
+
+.square-content h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.square-icon {
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 40%;
+    height: 60px;
+    font-size: 45px;
+    margin-left: -20%;
+
+}
+
